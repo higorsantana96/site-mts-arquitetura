@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    background-color: var(--cinza);
+    color: var(--branco);
+}
+
+@media screen and (max-width: 767px) {
+    footer {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    footer {
+        font-size: 20px;
+    }
+}

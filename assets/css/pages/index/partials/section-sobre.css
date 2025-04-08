@@ -1,0 +1,212 @@
+.sobre {
+    width: 100%;
+    height: 100%;
+    background-color: var(--cinza);
+    color: var(--branco);
+    padding: 80px 0;
+}
+
+.container-sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nome-arquiteto {
+    flex-shrink: 0;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.arquiteto-construtor {
+    flex-shrink: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 1.25rem;
+}
+
+.cau {
+    flex-shrink: 0;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 1.25rem;
+    margin-bottom: 3rem;
+}
+
+.sobre p {
+    max-width: 52rem;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: 1.25rem;
+    margin-bottom: 1rem;
+    text-align: start;
+}
+
+.sobre-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    width: 23rem;
+    height: 3.5rem;
+    color: var(--preto);
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    transition: all 0.5s ease;
+    background-color: var(--branco);
+    padding: 0.9375rem 2.5rem;
+    
+}
+
+.container-botao {
+    border: 1px solid var(--branco);
+    padding: 4px;
+    border-radius: 40px;
+    margin-top: 60px;
+}
+
+
+.container-botao:hover {
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px) {
+    .sobre {
+        width: 100%;
+        height: 100%;
+        padding: 60px 0;
+    }
+    
+    .container-sobre {
+        max-width: 90%;
+    }
+    
+    .nome-arquiteto {
+        text-align: center;
+        flex-shrink: 0;
+        font-size: 36px;
+        font-weight: 900;
+    }
+    
+    .arquiteto-construtor {
+        flex-shrink: 0;
+        font-size: 22px;
+        font-weight: 400;
+        margin-top: 1.25rem;
+    }
+    
+    .cau {
+        flex-shrink: 0;
+        font-size: 18px;
+        font-weight: 300;
+        margin-top: 1.25rem;
+        margin-bottom: 2rem;
+    }
+    
+    .sobre p {
+        font-size: 15px;
+        font-weight: 200;
+        margin-top: 1.25rem;
+        margin-bottom: 1rem;
+        text-align: start;
+    }
+    
+    .sobre-botao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 17rem;
+        height: 3.3rem;
+        font-size: 1rem;
+        
+    }
+    
+    .container-botao {
+        border: 1px solid var(--branco);
+        padding: 4px;
+        border-radius: 40px;
+        margin-top: 30px;
+    }
+    
+    
+    .container-botao:hover {
+        box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
+        transition: all 0.3s ease;
+    } 
+}
+
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .sobre {
+        width: 100%;
+        height: 100%;
+        padding: 60px 0;
+        
+    }
+    
+    .container-sobre {
+        max-width: 90%;
+    }
+    
+    .nome-arquiteto {
+        text-align: center;
+        flex-shrink: 0;
+        font-size: 45px;
+        font-weight: 900;
+    }
+    
+    .arquiteto-construtor {
+        flex-shrink: 0;
+        font-size: 24px;
+        font-weight: 400;
+        margin-top: 1.25rem;
+    }
+    
+    .cau {
+        flex-shrink: 0;
+        font-size: 20px;
+        font-weight: 300;
+        margin-top: 1.25rem;
+        margin-bottom: 2rem;
+    }
+    
+    .sobre p {
+        font-size: 18px;
+        font-weight: 200;
+        margin-top: 1.25rem;
+        margin-bottom: 1rem;
+        text-align: start;
+    }
+    
+    .sobre-botao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25rem;
+        height: 4rem;
+        font-size: 1.5rem;
+        
+    }
+    
+    .container-botao {
+        border: 1px solid var(--branco);
+        padding: 4px;
+        border-radius: 40px;
+        margin-top: 30px;
+    }
+    
+}

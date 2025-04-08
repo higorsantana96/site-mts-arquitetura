@@ -1,0 +1,223 @@
+.depoimentos {
+    background-color: var(--cinza);
+    color: var(--branco);
+}
+.container-depoimentos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.depoimento-clientes img {
+    width: 40px;
+    border-radius: 100px;
+    background-color: var(--branco);
+    padding: 10px;
+}
+
+.titulo-depoimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.titulo-depoimentos h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+
+.titulo-depoimentos p {
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.depoimento-clientes {
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.062);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--vidro);
+    margin-bottom: 80px;
+}
+
+.depoimento-clientes:hover {
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+}
+
+.depoimento-clientes h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.depoimento-clientes p {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.depoimentos .nota {
+    width: 100px;
+    background-color: #ffffff00;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.linha2 {
+    width: 60%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.178);
+    margin: auto;
+    margin-top: 80px;
+}
+
+.titulo-depoimentos h4 {
+    font-size: 58px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px) {
+    .depoimentos {
+        padding-bottom: 60px;
+    }
+    .titulo-depoimentos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 30px;
+        
+    }
+    .titulo-depoimentos h2 {
+        font-size: 15px;
+        margin-bottom: 10px;
+        font-weight: 100;
+        
+    }
+    
+    .titulo-depoimentos p {
+        font-size: 15px;
+        font-weight: 100;
+        margin-bottom: 10px;
+        width: 90%;
+    }
+    
+    .depoimento-clientes {
+        width: 320px;
+        height: 100%;
+        padding: 20px;
+        margin-bottom: 0;
+    }
+    
+    
+    .depoimento-clientes h3 {
+        font-size: 20px;
+        margin-top: 20px;
+        font-weight: 500;
+    }
+    
+    .depoimento-clientes p {
+        font-size: 15px;
+        font-style: italic;
+        font-weight: 200;
+    }
+    
+    .depoimentos .nota {
+        width: 100px;
+        background-color: #ffffff00;
+        padding: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .linha2 {
+        background-color: rgba(255, 255, 255, 0.301);
+
+    }
+    
+    .titulo-depoimentos h4 {
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        width: 90%;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .depoimentos {
+        padding-bottom: 60px;
+    }
+    .titulo-depoimentos {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 30px;
+        margin: auto;
+    }
+    .titulo-depoimentos h2 {
+        
+        font-size: 18px;
+        margin-bottom: 10px;
+        font-weight: 100;
+        
+    }
+    
+    .titulo-depoimentos p {
+        font-size: 18px;
+        font-weight: 100;
+        margin-bottom: 40px;
+        width: 90%;
+    }
+    
+    .depoimento-clientes {
+        width: 90%;
+        height: 100%;
+        padding: 20px;
+        margin-bottom: 0;
+    }
+    
+    
+    .depoimento-clientes h3 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    
+    .depoimento-clientes p {
+        font-size: 18px;
+    }
+    
+    
+    .titulo-depoimentos h4 {
+        font-size: 45px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        width: 90%;
+    }
+}

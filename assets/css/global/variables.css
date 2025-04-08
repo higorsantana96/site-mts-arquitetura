@@ -1,0 +1,9 @@
+:root {
+    --branco: #ffffff;
+    --amarelo: #e1b073;
+    --preto: #000000;
+    --cinza: #151f28;
+    --hover-botao: rgb(78, 255, 42);
+    --vidro: rgba(255, 255, 255, 0.2);
+    --background-navbar: #333333c4;
+}
