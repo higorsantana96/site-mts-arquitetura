@@ -36,40 +36,40 @@
 
 
 .img-1-projetos {
-    width: 500px;
-    height: 500px;
+    width: 275px;
+    height: 275px;
 }
 .img-2-projetos {
-    width: 800px;
-    height: 500px;
+    width: 450px;
+    height: 275px;
 }
 .img-3-projetos {
-    width: 500px;
-    height: 500px;
+    width: 275px;
+    height: 275px;
 }
 .img-4-projetos {
-    width: 800px;
-    height: 500px;
+    width: 450px;
+    height: 275px;
 }
 .img-5-projetos {
-    width: 500px;
-    height: 500px;
+    width: 275px;
+    height: 275px;
 }
 .img-6-projetos {
-    width: 500px;
-    height: 500px;
+    width: 275px;
+    height: 275px;
 }
 .img-7-projetos {
-    width: 650px;
-    height: 500px;
+    width: 334px;
+    height: 334px;
 }
 .img-8-projetos {
-    width: 500px;
-    height: 500px;
+    width: 334px;
+    height: 334px;
 }
 .img-9-projetos {
-    width: 650px;
-    height: 500px;
+    width: 334px;
+    height: 334px;
 }
 
 .img-1-projetos:hover {
@@ -234,5 +234,49 @@
     .img-9-projetos {
         width: 90%;
         height: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width:1809px) {
+    .grid-projetos {
+        width: 1024px;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+    .img-1-projetos {
+        width: 275px;
+        height: 275px;
+    }
+    .img-2-projetos {
+        width: 450px;
+        height: 275px;
+    }
+    .img-3-projetos {
+        width: 275px;
+        height: 275px;
+    }
+    .img-4-projetos {
+        width: 450px;
+        height: 275px;
+    }
+    .img-5-projetos {
+        width: 275px;
+        height: 275px;
+    }
+    .img-6-projetos {
+        width: 275px;
+        height: 275px;
+    }
+    .img-7-projetos {
+        width: 334px;
+        height: 334px;
+    }
+    .img-8-projetos {
+        width: 334px;
+        height: 334px;
+    }
+    .img-9-projetos {
+        width: 334px;
+        height: 334px;
     }
 }
