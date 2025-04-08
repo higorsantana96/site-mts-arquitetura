@@ -128,12 +128,12 @@ main .botao {
     transition: all 0.5s ease;
     background-color: #F2F2F2;
     padding: 0.9375rem 2.5rem;
-
 }
+
+
 
 main .botao:hover {
     background-color: var(--branco);
-    color: var(--preto);
 }
 
 .botao-orcamento {
@@ -268,7 +268,7 @@ main .botao:hover {
 
         width: 17rem;
         height: 3.3rem;
-        color: var(--branco);
+        
         border-radius: 40px;
         text-decoration: none;
         font-size: 1rem;
@@ -368,13 +368,11 @@ main .botao:hover {
     }
 
     main .botao {
-
         width: 25rem;
         height: 4rem;
-        color: var(--branco);
         border-radius: 40px;
         text-decoration: none;
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: 300;
     }
 }
