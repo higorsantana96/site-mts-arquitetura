@@ -23,7 +23,7 @@
     align-items: center;
     margin-bottom: 30px;
 }
-.titulo-depoimentos h2 {
+.titulo-depoimentos .subtitulo-depoimentos {
     font-size: 18px;
     margin-bottom: 10px;
     font-weight: 200;
@@ -79,7 +79,7 @@
     margin-top: 80px;
 }
 
-.titulo-depoimentos h4 {
+.titulo-depoimentos h2 {
     font-size: 58px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -112,7 +112,7 @@
         margin-bottom: 30px;
         
     }
-    .titulo-depoimentos h2 {
+    .titulo-depoimentos .subtitulo-depoimentos {
         font-size: 15px;
         margin-bottom: 10px;
         font-weight: 100;
@@ -159,7 +159,7 @@
 
     }
     
-    .titulo-depoimentos h4 {
+    .titulo-depoimentos h2 {
         font-size: 30px;
         font-weight: 600;
         margin-bottom: 15px;
@@ -181,7 +181,7 @@
         margin-bottom: 30px;
         margin: auto;
     }
-    .titulo-depoimentos h2 {
+    .titulo-depoimentos .subtitulo-depoimentos {
         
         font-size: 18px;
         margin-bottom: 10px;
@@ -214,7 +214,7 @@
     }
     
     
-    .titulo-depoimentos h4 {
+    .titulo-depoimentos h2 {
         font-size: 45px;
         font-weight: 600;
         margin-bottom: 15px;
