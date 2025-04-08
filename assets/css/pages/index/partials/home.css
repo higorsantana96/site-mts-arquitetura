@@ -202,7 +202,6 @@ main .botao:hover {
 
     .menu-link {
         margin-right: 0;
-
     }
 
     .menu {
@@ -307,6 +306,7 @@ main .botao:hover {
 
     .menu-link {
         margin-right: 0;
+        font-size: 20px;
 
     }
 
@@ -321,7 +321,7 @@ main .botao:hover {
         text-align: center;
         padding: 10px 0;
     }
-
+    
     .menu.active {
         display: flex;
         background-color: var(--background-navbar);
@@ -332,7 +332,7 @@ main .botao:hover {
         width: 100%;
         font-size: 30px;
     }
-
+    
     .menu-alternar {
         display: block;
         margin-right: 40px;
