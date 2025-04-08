@@ -110,7 +110,6 @@
         align-items: center;
         text-align: center;
         margin-bottom: 30px;
-        
     }
     .titulo-depoimentos .subtitulo-depoimentos {
         font-size: 15px;
@@ -129,6 +128,7 @@
     .depoimento-clientes {
         min-width: 320px;
         height: 100%;
+        width: 90%;
         padding: 20px;
         margin-bottom: 0;
     }
