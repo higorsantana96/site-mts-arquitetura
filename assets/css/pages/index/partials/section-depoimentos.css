@@ -127,7 +127,7 @@
     }
     
     .depoimento-clientes {
-        width: 320px;
+        min-width: 320px;
         height: 100%;
         padding: 20px;
         margin-bottom: 0;
@@ -219,5 +219,15 @@
         font-weight: 600;
         margin-bottom: 15px;
         width: 90%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width:1089px) {
+    .depoimento-clientes {
+        max-width: 320px;
+        height: 400px;
+        padding: 20px;
+        margin-bottom: 0;
+        margin-bottom: 60px;
     }
 }
