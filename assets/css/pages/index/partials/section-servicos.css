@@ -1,5 +1,6 @@
 .servicos {
     margin-top: 30px;
+    padding-top: 80px;
 }
 
 .titulo-servicos {
@@ -79,6 +80,7 @@
         margin: auto;
         margin-top: 0px;
         width: 90%;
+        padding-top: 60px;
     }
     
     
@@ -148,6 +150,7 @@
         margin: auto;
         margin-top: 0px;
         width: 90%;
+        padding-top: 60px;
     }
     
     

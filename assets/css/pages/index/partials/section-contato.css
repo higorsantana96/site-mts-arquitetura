@@ -4,6 +4,7 @@
     align-items: center;
     background-image: url('/files/images/back-contatos.webp');
     color: var(--branco);
+    padding-top: 60px;
 }
 
 .contatos {
@@ -95,8 +96,8 @@
 
 @media screen and (max-width: 767px){
     .contato {
-        padding-top: 30px;
         padding-bottom: 30px;
+        padding-top: 80px;
     }
     
     .contatos {
@@ -154,7 +155,7 @@
 
 @media screen and (min-width: 768px) and (max-width:1023px) {
     .contato {
-        padding-top: 30px;
+        padding-top: 100px;
         padding-bottom: 0;
     }
     

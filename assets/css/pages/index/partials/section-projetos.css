@@ -1,3 +1,6 @@
+.projetos {
+    padding-top: 60px;
+}
 .titulo-projetos {
     display: flex;
     flex-direction: column;
@@ -120,7 +123,9 @@
 
 
 @media screen and (max-width: 767px) {
-
+    .projetos {
+        padding-top: 60px;
+    }
     .titulo-projetos {
         display: flex;
         margin-top: 60px;
@@ -180,6 +185,9 @@
 
 
 @media screen and (min-width: 768px) and (max-width:1023px) {
+    .projetos {
+        padding-top: 60px;
+    }
     .titulo-projetos {
         display: flex;
         margin-top: 60px;

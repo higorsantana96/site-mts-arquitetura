@@ -1,6 +1,7 @@
 .depoimentos {
     background-color: var(--cinza);
     color: var(--branco);
+    padding-top: 120px;
 }
 .container-depoimentos {
     display: flex;
