@@ -415,3 +415,15 @@ main .botao:hover {
         font-weight: 300;
     }
 }
+
+
+@media screen and (min-width: 1024px) and (max-width:1136px) {
+    .menu-link {
+        color: var(--branco);
+        text-decoration: none;
+        font-size: 0.875rem;
+        position: relative;
+        font-weight: 500;
+        margin-right: 0;
+    }
+}
