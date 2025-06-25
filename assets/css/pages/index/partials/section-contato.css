@@ -5,6 +5,9 @@
     background-image: url('/files/images/back-contatos.webp');
     color: var(--branco);
     padding-top: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .contatos {
